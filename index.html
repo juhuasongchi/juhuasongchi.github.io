@@ -305,7 +305,7 @@
 <hr>
 <h2 id="设计样式代码的结构_《精通CSS》">设计样式代码的结构 《精通CSS》</h2><p>（使用一种风格统一的大注释块分隔每个部分）</p>
 <ul>
-<li>一般性样式    ‘/<em>———  @group general styles ———</em>/‘<ul>
+<li>一般性样式    <code>/<em>———  @group general styles ———</em>/</code><ul>
 <li>主体样式</li>
 <li>reset样式</li>
 <li>链接</li>
@@ -313,25 +313,25 @@
 <li>其他元素</li>
 </ul>
 </li>
-<li>辅助样式    ‘/<em>———  @group helper styles ———</em>/‘<ul>
+<li>辅助样式    <code>/<em>———  @group helper styles ———</em>/</code><ul>
 <li>表单</li>
 <li>通知和错误</li>
 <li>一致的条目</li>
 </ul>
 </li>
-<li>页面结构    ‘/<em>———  @group page structure ———</em>/‘<ul>
+<li>页面结构    <code>/<em>———  @group page structure ———</em>/</code><ul>
 <li>标题、页脚和导航</li>
 <li>布局</li>
 <li>其他页面结构元素</li>
 </ul>
 </li>
-<li>页面组件    ‘/<em>———  @group page components ———</em>/‘<ul>
+<li>页面组件    <code>/<em>———  @group page components ———</em>/</code><ul>
 <li>各个页面</li>
 </ul>
 </li>
-<li>覆盖    ‘/<em>———  @group overrides ———</em>/‘</li>
+<li>覆盖    <code>/<em>———  @group overrides ———</em>/‘</code></li>
 </ul>
-<p>为了是注释更有意义，可以使用关键字来区分重要的注释。<br>使用 @tudo 来表示某些东西需要在以后进行修改、修复或复查；<br>使用 @bugfix 表示代码或特定浏览器遇到的问题；<br>使用 @workaround 表示并不完善的权宜之计：<br> ‘’/<em> @todo: Remember to remove this rule before the site goes live </em>/<br>   /<em> @bugfix: Rule breaks in IE 7 Mac </em>/<br>   /<em> @workaround: I managed to fix this problem in IE by setting a small negative margin but it’s not pretty </em>/ ‘’</p>
+<p>为了是注释更有意义，可以使用关键字来区分重要的注释。<br>使用 @tudo 来表示某些东西需要在以后进行修改、修复或复查；<br>使用 @bugfix 表示代码或特定浏览器遇到的问题；<br>使用 @workaround 表示并不完善的权宜之计：<br>    /<em> @todo: Remember to remove this rule before the site goes live </em>/<br>    /<em> @bugfix: Rule breaks in IE 7 Mac </em>/<br>    /<em> @workaround: I managed to fix this problem in IE by setting a small negative margin but it’s not pretty </em>/</p>
 <p>部署时记得删除注释，但要保留带注释的版本。</p>
 
       
