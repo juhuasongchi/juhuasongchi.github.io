@@ -331,7 +331,7 @@
 </li>
 <li>覆盖    <code>/<em>———  @group overrides ———</em>/‘</code></li>
 </ul>
-<p>为了是注释更有意义，可以使用关键字来区分重要的注释。<br>使用 @tudo 来表示某些东西需要在以后进行修改、修复或复查；<br>使用 @bugfix 表示代码或特定浏览器遇到的问题；<br>使用 @workaround 表示并不完善的权宜之计：<br>    /<em> @todo: Remember to remove this rule before the site goes live </em>/<br>    /<em> @bugfix: Rule breaks in IE 7 Mac </em>/<br>    /<em> @workaround: I managed to fix this problem in IE by setting a small negative margin but it’s not pretty </em>/</p>
+<p>为了是注释更有意义，可以使用关键字来区分重要的注释。<br>使用 @tudo 来表示某些东西需要在以后进行修改、修复或复查；<br>使用 @bugfix 表示代码或特定浏览器遇到的问题；<br>使用 @workaround 表示并不完善的权宜之计：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* @<span class="doctag">todo:</span> Remember to remove this rule before the site goes live */</span></span><br><span class="line"><span class="comment">/* @bugfix: Rule breaks in IE 7 Mac */</span></span><br><span class="line"><span class="comment">/* @workaround: I managed to fix this problem in IE by setting a small negative margin but it's not pretty */</span></span><br></pre></td></tr></table></figure></p>
 <p>部署时记得删除注释，但要保留带注释的版本。</p>
 
       
